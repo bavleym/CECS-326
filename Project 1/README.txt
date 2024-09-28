@@ -1,4 +1,7 @@
-Warm up of Interprocess Communication
+FileCopy and child are two codes used for the Project "Warm up of Interprocess Communication" 
+
+The goal of the project is to design and implement a file-copying program named filecopy.c that utilizes ordinary pipes for inter-process communication. The program will be passed two parameters: the name of the file to be copied and the name of the destination file. It will create a pipe (please find more info of pipe for interprocess communication by yourself), write the contents of the source file to the pipe, and then have
+a child process read from the pipe and write to the destination file.Warm up of Interprocess Communication
 
 To compile code, place FileCopy.c and child.c in the same directory.
 
